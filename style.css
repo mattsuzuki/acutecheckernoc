@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -21,8 +22,17 @@ body {
 
 h1 {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem; /* reduced margin bottom to 0.5rem */
   color: #007bff;
+}
+
+p {
+  text-align: center; /* make the p tag to be centered */
+  margin-top: 0.5rem; /* added a top margin to style right beneath the h1 */
+  margin-bottom: 1.5rem; /* increased bottom margin */
+  color: #007bff; /* use the same color as h1 */
+  font-weight: bold; /* to style the p tag */
+  text-decoration: underline;
 }
 
 .input-group,
